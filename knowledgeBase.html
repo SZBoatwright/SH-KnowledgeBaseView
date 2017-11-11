@@ -6,42 +6,76 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Knowledge Base</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/CSS" href= "CSS/knowledgeBase.css">
 </head>
 <body>
 
-    
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="container">
         
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Knowledge Base</a>
-            </li>
-            </ul>
-        </div>
-    </nav>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Knowledge Base</a>
+                </li>
+                </ul>
+            </div>
+        </nav>
 
-    <div class="searchBar">
-        <h2>Knowledge Base</h2>
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search the knowledge base..." aria-label="Search the knowledge base...">
-            <span class="input-group-btn">
-            <button class="btn btn-secondary" type="button">magnifying glass</button>
-            </span>
+        <div class="searchBar">
+            <h2>Knowledge Base</h2>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search the knowledge base..." aria-label="Search the knowledge base...">
+                <span class="input-group-btn">
+                <button class="btn btn-secondary" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </span>
+                <button type="button" class="btn btn-primary searchBar__Add"><i class="fa fa-plus" aria-hidden="true"></i></button>
+            </div>
         </div>
+
+        <!-- Important Stuff -->
+        <div class="row">
+            <div class="col-sm-12 col-lg-6">
+                <h3 class = "knowledgeBox__header">General</h3>
+                <hr class = "knowledgeBox__hr">
+                <div class="knowledgeBox__general">
+                    <p class = "knowledgeBox__entry--text">Lorem ipsum dolor sit amet</p>
+                    <p class="knowledgeBox__entry--text">Consectetur, adipisicing elit recusandae aut ut nihil. Voluptate itaque alias magni eaque</p>
+                    <p class="knowledgeBox__entry--text">Dolorem obcaecati labore est qui, saepe sequi modi velit ipsam aut</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <h3 class = "knowledgeBox__header">Policies</h3>
+                <hr class = "knowledgeBox__hr">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-lg-6">
+                <h3 class = "knowledgeBox__header">Troubleshooting</h3>
+                <hr class = "knowledgeBox__hr">
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <h3 class = "knowledgeBox__header">Helpful Articles</h3>
+                <hr class = "knowledgeBox__hr">
+            </div>
+        </div>
+
+
     </div>
+
     
 </body>
 </html>
