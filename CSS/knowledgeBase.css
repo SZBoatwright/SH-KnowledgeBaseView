@@ -1,3 +1,8 @@
+.searchBar {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
 .searchBar__Add {
     margin-left: 20px;
     text-align: center;
@@ -10,18 +15,11 @@
     margin-top: 20px;
 }
 
-.knowledgeBox__hr {
+.knowledgeBox__entry {
+    margin-left: 2px;
+    margin-bottom: 10px;
 }
 
-.knowledgeBox__entry--text {
-    position:relative;
-    padding-left: 15px;
-    margin-left: 7px;
-}    
-.knowledgeBox__entry--text:before {
-    content: "\f15c";
-    font-family: FontAwesome;
-    left:-5px;
-    position:absolute;
-    top:0;
- }
+.knowledgeBox__entry__link {
+    margin-left: 8px;
+}
